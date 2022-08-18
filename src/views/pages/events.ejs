@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body id="events">
+    <nav class="visible"><%- include('../partials/nav'); %></nav>
+
+    <header class="page-header" id="#lemon">
+      <div class="skewed-top"></div>
+
+      <div data-jarallax data-speed=".5" class="skewed-container jarallax">
+        <img class="jarallax-img" src="assets/lemons.jpg" alt="lemons background image" />
+        <div class="content">
+          <h2>EVENTS</h2>
+        </div>
+      </div>
+
+      <div class="skewed-endcap"></div>
+    </header>
+
+    <main class="content-page">
+      <div class="line"></div>
+
+      <% for (let event of events) { %>
+      <section class="event-section">
+        <div class="events-wrapper">
+          <div class="img-box">
+            <div class="img-grid">
+              <% for (const [i, url] of event.grid.entries()) { %>
+              <div class="img-<%=i%>">
+                <img class="img-full" src="assets/events/<%=url%>" alt="" />
+              </div>
+              <% } %>
+            </div>
+          </div>
+          <div class="text-box">
+            <div class="flower"></div>
+            <h3><%= event.name %></h3>
+            <p><%= event.desc %></p>
+          </div>
+        </div>
+      </section>
+      <% } %>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+
+    <script src="https://unpkg.com/jarallax@2.0"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/events.js"></script>
+  </body>
+</html>

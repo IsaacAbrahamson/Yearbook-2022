@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body id="society-detail" class="sub">
+    <nav class="visible"><%- include('../partials/nav'); %></nav>
+
+    <header class="page-header" id="#blueberry">
+      <div class="skewed-top"></div>
+
+      <div data-jarallax data-speed=".5" class="skewed-container jarallax">
+        <img class="jarallax-img" src="assets/blueberries.jpg" alt="blueberries background image" />
+        <div class="content">
+          <h2><%= name.toUpperCase() %></h2>
+        </div>
+      </div>
+
+      <div class="skewed-endcap"></div>
+    </header>
+
+    <main class="content-page">
+      <section class="margined">
+        <a class="goback" href="javascript:history.back()">
+          <span class="arrow">‹</span>
+          Go Back
+        </a>
+        <div class="content">
+          <div class="masonry">
+            <!-- width of .masonry-sizer used for columnWidth -->
+            <div class="masonry-sizer"></div>
+
+            <% if (locals.img) { %>
+              <% for (let url of img) { %>
+                <div class="masonry-item">
+                  <img class="img-full" src="assets/societies/<%= group %>/<%= url %>" alt="picture of group" />
+                </div>
+              <% } %>  
+            <% } %>
+
+            <% if (locals.people) { %>
+              <div class="masonry-item masonry-item--full">
+                <h3>People</h3>
+                <div class="list">
+                  <% for (let person of people) { %>
+                    <p><%= person %></p>
+                  <% } %>  
+                </div>
+              </div>
+            <% } %>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/masonry.js"></script>
+    <script src="https://unpkg.com/jarallax@2.0"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/societies-detail.js"></script>
+  </body>
+</html>

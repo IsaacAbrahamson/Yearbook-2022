@@ -1,0 +1,158 @@
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  color: var(--apple);
+  font-size: 20rem;
+  text-transform: uppercase;
+  font-family: 'PP Migra';
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
+.verse {
+  color: var(--pear);
+  font-size: 5.5rem;
+  font-family: 'PP Migra';
+  font-weight: bold;
+  text-align: center;
+  margin: 3rem 0;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.verse-small {
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'PP Migra';
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.skewed-container h2 {
+  color: var(--section-text);
+  font-size: 8rem;
+  font-family: 'PP Migra';
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2rem;
+}
+
+#theme {
+  padding: var(--spacing-lg) 0;
+  text-align: left;
+
+  h2 {
+    color: var(--apple);
+    text-transform: none;
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--dark-blueberry);
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    font-family: 'PP Migra';
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+section p {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #393939;
+  text-align: left;
+}
+
+nav {
+  .logo a {
+    color: var(--apple);
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-family: 'PP Migra';
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .links a {
+    display: inline-block;
+    color: var(--dark-blueberry);
+    font-family: 'PP Migra';
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin: 0 2rem;
+    transition: color 300ms;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 10rem;
+  }
+
+  .skewed-container h2 {
+    font-size: 6rem;
+    letter-spacing: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  .skewed-container h2 {
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+  }
+
+  #theme {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  .verse {
+    font-size: 4rem;
+  }
+
+  .verse-small {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 7rem;
+  }
+
+  .skewed-container h2 {
+    font-size: 4rem;
+    letter-spacing: 1.2rem;
+  }
+
+  .verse {
+    font-size: 3rem;
+    margin: 2rem 0;
+    line-height: 115%;
+  }
+
+  .verse-small {
+    font-size: 2rem;
+  }
+
+  section p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  #theme {
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+}

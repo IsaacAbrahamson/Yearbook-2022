@@ -1,0 +1,36 @@
+:root {
+  // Angles
+  --skew-tan: 0.05255; /* tan(6°) / 2 */
+  --skew-padding: calc(100vw * var(--skew-tan));
+  --clip-angle: 10vw;
+
+  // Spacing
+  --spacing-xl: 20rem;
+  --spacing-lg: 10rem;
+  --spacing-md: 5rem;
+  --spacing-sm: 3rem;
+
+  // Colors
+  --blueberry: #094fa3;
+  --dark-blueberry: #0d216e;
+  --strawberry: #e4645e;
+  --apple: #f53d54;
+  --pear: #eed6a7;
+  --lemon: #ffd654;
+  --lime: #009750;
+
+  // Overlay colors with opacity
+  --apple-overlay: rgba(245, 61, 84, 0.7);
+  --lemon-overlay: rgba(255, 214, 84, 0.7);
+  --dark-blueberry-overlay: rgba(13, 33, 110, 0.7);
+  --strawberry-overlay: rgba(228, 100, 94, 0.7);
+  --lime-overlay: rgba(0, 151, 80, 0.7);
+}
+
+@media only screen and (max-width: 991px) {
+  :root {
+    --spacing-xl: 12rem;
+    --spacing-lg: 8rem;
+    --spacing-md: 4rem;
+  }
+}

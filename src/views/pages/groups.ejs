@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body id="groups">
+    <nav class="visible"><%- include('../partials/nav'); %></nav>
+
+    <header class="page-header" id="#strawberry">
+      <div class="skewed-top"></div>
+
+      <div data-jarallax data-speed=".5" class="skewed-container jarallax">
+        <img class="jarallax-img" src="assets/strawberrries.jpg" alt="strawberries background image" />
+        <div class="content">
+          <h2>GROUPS</h2>
+        </div>
+      </div>
+
+      <div class="skewed-endcap"></div>
+    </header>
+
+    <main class="content-page">
+      <section class="margined">
+        <div class="boxes">
+          <% for (let group of groups) { %>
+          <a href="<%= group.name %>.html" class="box">
+            <div class="pattern"></div>
+            <p><%= group.name %></p>
+          </a>
+          <% } %>
+        </div>
+      </section>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+
+    <script src="https://unpkg.com/jarallax@2.0"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/groups.js"></script>
+  </body>
+</html>

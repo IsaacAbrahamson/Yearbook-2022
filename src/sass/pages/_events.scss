@@ -1,0 +1,209 @@
+body#events {
+  --primary-color: var(--lemon);
+  --primary-overlay: var(--lemon-overlay);
+  --primary-text: var(--dark-blueberry);
+
+  footer {
+    p,
+    h3,
+    h4,
+    a,
+    a:visited {
+      color: var(--dark-blueberry);
+    }
+
+    h2 {
+      color: var(--apple);
+    }
+  }
+
+  .line {
+    position: absolute;
+    width: 2rem;
+    height: calc(100% + var(--clip-angle));
+    top: calc(var(--clip-angle) * -1);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+  }
+}
+
+main.content-page {
+  position: relative;
+}
+
+.events-wrapper {
+  position: relative;
+  display: grid;
+  width: 90%;
+  max-width: 110rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, [col] 1fr);
+  gap: 10rem;
+
+  .img-box {
+    grid-column: col / span 1;
+    grid-row: 1;
+  }
+
+  .text-box {
+    .flower {
+      height: 5rem;
+      width: 5rem;
+      position: relative;
+      left: -7.5rem;
+      top: 5rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h3 {
+      color: var(--section-color);
+      font-family: 'PP Migra';
+      font-weight: bold;
+      font-size: 4.6rem;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    grid-column: col 2 / span 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, [col] 1fr);
+  gap: 3rem;
+
+  .img-0 {
+    grid-column: col / span 1;
+    grid-row: 1;
+  }
+
+  .img-1 {
+    grid-column: col 2 / span 1;
+    grid-row: 1;
+  }
+
+  .img-2 {
+    grid-column: col / span 2;
+    grid-row: 2;
+  }
+}
+
+section.event-section {
+  position: relative;
+  padding: var(--spacing-xl) 0;
+}
+
+section.event-section:nth-child(odd)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 214, 84, 0.2);
+  clip-path: polygon(0 var(--clip-angle), 100% 0, 100% calc(100% - var(--clip-angle)), 0% 100%);
+}
+
+// Alternate on larger screens
+@media only screen and (min-width: 700px) {
+  section.event-section:nth-child(odd) .events-wrapper {
+    .img-box {
+      grid-column: col 2 / span 1;
+    }
+
+    .text-box {
+      p {
+        text-align: right;
+      }
+
+      .flower {
+        left: auto;
+        right: -7.5rem;
+      }
+
+      grid-column: col / span 1;
+      align-items: flex-end;
+    }
+  }
+}
+
+// EACH EVENT HAS DIFFERENT COLOR
+section.event-section:nth-child(1n) {
+  --section-color: var(--lime);
+  .flower {
+    background-image: url(http://www.bjuvintage.com/2022/assets/green-flower.svg);
+  }
+}
+section.event-section:nth-child(2n) {
+  --section-color: var(--dark-blueberry);
+  .flower {
+    background-image: url(http://www.bjuvintage.com/2022/assets/blue-flower.svg);
+  }
+}
+section.event-section:nth-child(3n) {
+  --section-color: var(--apple);
+  .flower {
+    background-image: url(http://www.bjuvintage.com/2022/assets/red-flower.svg);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .img-0,
+  .img-1 {
+    display: none;
+  }
+
+  .img-2 {
+    grid-row: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .event-section:first-of-type {
+    padding-top: 0;
+    margin-top: calc(var(--clip-angle) * -2);
+  }
+
+  .events-wrapper {
+    width: calc(100% - 15rem); // 100% minus 10rem left margin for bar and 5rem right margin
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: 10rem;
+  }
+  body#events .line {
+    height: 100%;
+    top: 0;
+    left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .events-wrapper {
+    width: calc(100% - 10rem);
+    margin-left: 8rem;
+
+    .text-box {
+      .flower {
+        left: -6.3rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        top: 4.4rem;
+      }
+      h3 {
+        font-size: 4rem;
+      }
+    }
+  }
+  body#events .line {
+    left: 4rem;
+    width: 1.5rem;
+  }
+}

@@ -1,0 +1,104 @@
+body#groups {
+  --primary-color: var(--strawberry);
+  --primary-overlay: var(--strawberry-overlay);
+  --primary-text: var(--dark-blueberry);
+
+  main.content-page {
+    margin-top: var(--spacing-md);
+  }
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: var(--spacing-lg);
+
+  .box {
+    background: var(--primary-color);
+    margin: 4%;
+    flex-basis: 25.33%;
+    padding: 2%;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+
+    .pattern {
+      opacity: 0;
+      position: absolute;
+      transition: opacity 400ms;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-image: url(http://www.bjuvintage.com/2022/assets/overlay.svg);
+      background-size: cover;
+      background-position-y: 60%;
+    }
+
+    p {
+      font-family: 'PP Migra';
+      position: relative;
+      color: var(--primary-text);
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+
+  .box:hover .pattern {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .boxes {
+    a p {
+      font-size: 2.4rem;
+    }
+    .box {
+      margin: 3%;
+      flex-basis: 27.33%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  // 2 boxes
+  .boxes .box {
+    margin: 4%;
+    flex-basis: 42%;
+    height: 17vw;
+  }
+
+  .boxes a .pattern {
+    background-position-y: 0%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .boxes a p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  // 1 box
+  .boxes {
+    flex-direction: column;
+
+    .box {
+      margin: 3%;
+      padding: 5%;
+    }
+  }
+}

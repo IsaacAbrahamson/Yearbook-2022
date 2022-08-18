@@ -1,0 +1,173 @@
+{
+  "subgroups": [
+    {
+      "name": "American Advertising Federation",
+      "group": "Academic",
+      "img": [],
+      "people": []
+    },
+    {
+      "name": "Collegiate Biology Association",
+      "group": "Academic",
+      "img": [],
+      "people": [
+        "Abby Llewellyn Covington",
+        "Nathan Taylor Dwire",
+        "Caleb Emerson Matthews",
+        "Noah David Nicklas",
+        "Hannah Rose Risser",
+        "Tabitha Rose Varnell",
+        "Daniel Richard Wells",
+        "Emiley Elizabeth Willhite",
+        "Yuhua 'Tricie' Yue"
+      ]
+    },
+    {
+      "name": "Criminal Justice Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Matthew Allen Farmer", "Benaiah Mark Henry", "Logan James Hilton", "Bryan Zachary Stock", "Karina Abigail Wolfe"]
+    },
+    {
+      "name": "Exercise & Sport Science Association",
+      "group": "Academic",
+      "img": [],
+      "people": [
+        "John Fitzgerald Baron",
+        "Annelise Katherine Few",
+        "Katie Grace Garrison",
+        "Harrison Ian Hodge",
+        "Maxwell Sanford Passarelli",
+        "Kristina Joy 'Tina' Poore",
+        "Jennifer Lauren Pyle",
+        "Josue Rojas-Mendez",
+        "Conner Matthew Smith",
+        "Jessiann Joy Grace Wiedmann"
+      ]
+    },
+    {
+      "name": "Health Sciences Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Micah Christopher Baughman", "Leah Mischa Chelli", "Emily Paige Hubbard", "Ana Maria Moran", "Danielle Marie Toth", "Hart Zakaria"]
+    },
+    {
+      "name": "Intercollegiate Programming Team",
+      "group": "Academic",
+      "img": ["programming1.jpg", "programming2.jpg", "programming3.jpg"],
+      "people": []
+    },
+    {
+      "name": "Lambda Pi Eta: NCA Honor Society",
+      "group": "Academic",
+      "img": [],
+      "people": ["Nathan 'Alvin' Ball", "Charity Elisabeth McMullin", "Kaitlyn Joy McNally", "Jessica Katherine Scott"]
+    },
+    {
+      "name": "METES",
+      "group": "Academic",
+      "img": [],
+      "people": ["Noah Alexander Jackson", "Naryan Charles 'Ryan' Parimi", "Johnny  Pierre", "Jewel Joy Schuurmans"]
+    },
+    {
+      "name": "Music Teachers National Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Krista Michele Hagglund", "Matthew Bryson Lehman", "Hannah  Pierre", "Megan Grace Westphal"]
+    },
+    {
+      "name": "National Association for Music Education",
+      "group": "Academic",
+      "img": [],
+      "people": ["Harold 'Daniel' Elston", "Sarah Ruth Harris", "Katie Lynn Johnson", "Noah Daniel Scahill"]
+    },
+    {
+      "name": "Pre-Medical Association",
+      "group": "Academic",
+      "img": [],
+      "people": [
+        "Helen 'Blythe' Coss",
+        "Bradley Thomas Koons",
+        "Isaac Martin Korver",
+        "Jonathan 'Reagan' Musselman",
+        "Josiah Robert Schweitzer",
+        "Jared Scott Vanderberg"
+      ]
+    },
+    {
+      "name": "Public Policy Organization",
+      "group": "Academic",
+      "img": ["publicsafety1.jpg"],
+      "people": [
+        "Trenton Josiah Goldsmith",
+        "Alexander Joshua 'Alex' Grupp",
+        "Jenna Grace Larson",
+        "Naryan Charles 'Ryan' Parimi",
+        "Gwendolynn Faith 'Gwen' Williams"
+      ]
+    },
+    {
+      "name": "Robotics Team",
+      "group": "Academic",
+      "img": ["robotics1.jpg"],
+      "people": []
+    },
+    {
+      "name": "Student Legislature",
+      "group": "Academic",
+      "img": [],
+      "people": ["Carson James McQuaid"]
+    },
+    {
+      "name": "University Accounting Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Asa Christopher Cropsey", "Rebekah Joy Longacre", "Morgan Angela Rowe", "Samuel Jacob Tyrrell"]
+    },
+    {
+      "name": "University Business Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Anna Joy Tuck", "Jeffrey Loyd 'Jeff' Tuttle", "Charity Marie VanDoodewaard", "Laura 'Emma' Walker"]
+    },
+    {
+      "name": "University Entrepreneurship Network",
+      "group": "Academic",
+      "img": [],
+      "people": ["David Paul Bush", "Emily Elizabeth Hughes", "Reagan Paul Riddell"]
+    },
+    {
+      "name": "University Investing Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Justus Isaiah Dobish", "Preston Edward Goff", "Daniel Peter Gudelunas", "Dylan Christopher Spruyt", "Sarah Ann Williams"]
+    },
+    {
+      "name": "University Marketing Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Erin Rebecca Albert", "Asa Christopher Cropsey", "Darrell John Vera Cruz Ramos", "Aimee Marie Tewes", "Abigail Elisabeth Vork"]
+    },
+    {
+      "name": "University Language Association",
+      "group": "Academic",
+      "img": [],
+      "people": ["Clara Yoko  Arai", "Emily Isobel Esther Barilla", "Lauren Rae Dempewolf", "Peter Clark Labadorf", "Elise Marie Snow", "Changeseok 'John' Yi"]
+    },
+    {
+      "name": "University Nursing Association",
+      "group": "Academic",
+      "img": [],
+      "people": [
+        "Jenna Leigh Baughman",
+        "Karis Faith Brock",
+        "Annika Jean Leffew",
+        "Kaleigh Mae Fern McKinney",
+        "Daniel Jeremiah Miller",
+        "Sarah Joy Morrissey",
+        "Hannah Jolayne Woo"
+      ]
+    }
+  ],
+  "group": "Academic"
+}

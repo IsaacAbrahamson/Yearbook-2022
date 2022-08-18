@@ -1,0 +1,29 @@
+/* https://sass-guidelin.es/#the-7-1-pattern */
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+@import 'vendors/jarallax';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/fonts';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/footer';
+@import 'layout/section';
+
+@import 'components/buttons';
+@import 'components/skewed';
+@import 'components/pageheader';
+
+@import 'pages/index';
+@import 'pages/groups';
+@import 'pages/events';
+@import 'pages/theme';
+@import 'pages/groups-detail';
+@import 'pages/societies';
+@import 'pages/society-detail';
+@import 'pages/search';

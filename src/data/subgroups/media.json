@@ -1,0 +1,65 @@
+{
+  "subgroups": [
+    {
+      "name": "Collegian",
+      "group": "Media",
+      "img": ["collegian1.jpg", "collegian2.jpg", "collegian3.jpg", "collegian4.jpg"],
+      "people": [
+        "Keyla Veronica Alvarado Basillo",
+        "Jared Daniel Banks",
+        "Hannah Ruth Bray",
+        "Micah Paul Brink",
+        "Jordyn Rose Britton",
+        "Alicia Delia Cannon",
+        "Isaac Robert Chisholm",
+        "Melia Grace Covington",
+        "Melchisedek Dulcio",
+        "Trenton Josiah Goldsmith",
+        "Michaela Marie Gonzales",
+        "Hannah Elizabeth Guell",
+        "Laura Ellen Hammer",
+        "Nathaniel Joseph Hendry",
+        "Katherine Elizabeth Lilly",
+        "Julia Marguerite Lodi",
+        "Arianna Joy Rayder",
+        "Lindsay Joy Shaleen",
+        "Johnathon Daniel Smith",
+        "Andrew David Thompson",
+        "Olivia Annlin Thompson",
+        "Zane Alexander Trively"
+      ]
+    },
+    {
+      "name": "Vintage",
+      "group": "Media",
+      "img": ["vintage1.jpg"],
+      "people": [
+        "Isaac Daniel Abrahamson",
+        "Susanna Margarethe Bayer",
+        "Susannah Lee 'Susy' Castle",
+        "Isaac Robert Chisholm",
+        "Alicia Joy DeMott",
+        "Sharon Rose Kearns",
+        "Madelyn Jayne 'Maddy' Klass",
+        "Katie Rose Soo-Kyung Lee",
+        "Kenzie Rylee McGregor",
+        "Sarah-Kate Meiping Mills",
+        "Lindsey Anna Mohnacky",
+        "Elisabeth Anne Parks",
+        "Madeline Elisabeth Peters",
+        "Carlotta Estrella Merced Silos",
+        "Jessica Paige Skrade",
+        "Anna Lynn Tuttle",
+        "Joshua Manuel Venegas",
+        "Elias Jacob Witt"
+      ]
+    },
+    {
+      "name": "WBJU TV",
+      "group": "Media",
+      "img": ["wbju1.jpg", "wbju2.jpg"],
+      "people": []
+    }
+  ],
+  "group": "Media"
+}

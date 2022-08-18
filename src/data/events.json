@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "name": "Welcome Week",
+      "desc": "On August 21 the Freshman Class of 2025 arrived on campus, eager to enter the BJU experience. Enthusiastic students and staff members welcomed them, helped with the move-in process and answered questions. Upon moving into the residence halls, students completed check-in and began exploring campus. Opening exercises for the 2021-22 school year commenced the evening of August 23, followed by two nights of evangelistic services and classes on Wednesday. Throughout Welcome Week student organizations and societies introduced themselves to new and returning students, recruiting students to participate in campus-wide activities.",
+      "grid": ["welcome2.jpg", "welcome3.jpg", "welcome1.jpg"]
+    },
+    {
+      "name": "U. Day",
+      "desc": "This year marked the return of U.Day, a shorter family event coinciding with Homecoming & Family Weekend. Families enjoyed live music from BJU President Pettit and the BJUGrass band, accompanied by food and activity booths hosted by various departments. Alumni families and students could get a hand-drawn caricature by a professor as well as finger paint their own art, listen to story time and much more.",
+      "grid": ["uday2.jpg", "uday3.jpg", "uday1.jpg"]
+    },
+    {
+      "name": "Turkey Bowl",
+      "desc": "The most hyped-up 11-on-11 soccer matchup of the year took place between the Sigma Alpha Chi Spartans and the Beta Gamma Delta Patriots in this year's rendition of the Turkey Bowl. Throughout the men's annual intramural soccer championship, the players battling on the field held the fans captive down to the wire in a hard-fought defensive game. The Patriots emerged victorious by a score of 1-0, bouncing back to win the title after a tough loss in the semifinals the previous year. The Inter-Society Council (ISC) led several entertaining activities for the pre-game parade and halftime festivities, rounding out a fun yet competitive interactive experience.",
+      "grid": ["turkeybowl2.jpg", "turkeybowl3.jpg", "turkeybowl1.jpg"]
+    },
+    {
+      "name": "Society Rush and Induction",
+      "desc": "On September 10 the Society Rush Party took the athletic fields by storm. A time of food, friends and fun, societies hosted games, chanted cheers and competed with each other to win the allegiance of undecided first-year students during one of the most exciting events of the year. When smoke settled, noise ceased and food ran out, all new students were left with fewer than 24 hours to solidify their society choice. The next day brought Induction with a combination of nerves and excitement as freshmen finally joined a society. After the ritual initiation unique to each society's tradition, new members began forming friendships that will last throughout and after their college careers.",
+      "grid": ["rush2.jpg", "rush3.jpg", "rush1.jpg"]
+    },
+    {
+      "name": "Ministry Chapel",
+      "desc": "Ministry Chapel encourages constant building and refining of character in participating students as it emphasizes vision, inspiration and leadership abilities essential to the development of disciple makers. An engaging weekly meeting held on select Tuesdays during the fall semester, Ministry Chapel is a special requirement that replaces regular chapel for all School of Religion students. However, any student interested in vocational ministry or missionary outreach may also attend the meetings.",
+      "grid": ["ministry2.jpg", "ministry3.jpg", "ministry1.jpg"]
+    },
+    {
+      "name": "Homecoming",
+      "desc": "BJU hosted its annual Homecoming event in early October, with alumni reconnecting with classmates via the class reunions hosted on October 7-8. As part of the festivities, the BJU Bruins volleyball team played a match, demonstrating its sportsmanship and competitive spirit. Friday night saw the return of the World's Most Unusual Game Show that brought lighthearted fun to end the day. On Saturday, the M&G Maker's Market showcased works available for purchase and created exclusively by BJU alumni, faculty and students. Located in the Activity Center, the Bruins BBQ Bash drew a crowd as families and friends enjoyed Southern classic food, such as pulled pork and macaroni and cheese.",
+      "grid": ["homecoming2.jpg", "homecoming3.jpg", "homecoming1.jpg"]
+    },
+    {
+      "name": "Fall Festival",
+      "desc": "A well-loved campus tradition, BJU's Fall Festival celebration followed the Turkey Bowl. Creativity and positive peer pressure combined with some fantastic home cooking on a late Saturday of entertaining activities. An obstacle course, a photo contest and games filled the night, but the faculty chili cook-off decided by volunteer samplers from the student body highlighted the event. With Thanksgiving Break a week away, this evening provided an opportunity for students to pause their studies and spend an enjoyable few hours with friends.",
+      "grid": ["fallfestival2.jpg", "fallfestival3.jpg", "fallfestival1.jpg"]
+    },
+    {
+      "name": "Fall Concert, Opera and Drama Series",
+      "desc": [
+        "In early October, BJU welcomed Grammy award-winning conductor Richard Kaufman to the stage for the Symphonic Hollywood concert, performed by the University Symphony Orchestra and Chorus. This year's version of the beloved Symphonic Hollywood consisted of works by Lee Holdridge, a famous Hollywood composer who has been nominated for an Emmy award eighteen times throughout his career. Kaufman led each piece with his master conductor's flair, and Holdridge himself surprised the audience later in the program as he conducted the world premiere of a piece titled “Fantasy Chorale: A Journey of Joy and Hope,” which he wrote specifically for this event.",
+        "In November the theatre department presented Shakespeare's classic comedy A Midsummer Night's Dream, featuring BJU faculty members John Cox and Erin Naler as Oberon and Titania, king and queen of the fairies. The play depicts the relational dynamics between four couples, influenced by the magic of the fairies and the disorienting atmosphere of the woods. All's well that ends well as order and happiness are restored through Titania's and Oberon's reconciliation--with the help of the iconic Puck and his pranks, of course."
+      ],
+      "grid": ["falldrama2.jpg", "falldrama3.jpg", "falldrama1.jpg"]
+    },
+    {
+      "name": "Christmas Celebration",
+      "desc": "The BJU student body kicked off the holiday season in December with an evening of caroling led by the BJU Symphonic Wind Band along with the Concert Choir and University Singers. The program consisted of classic Christmas music as well as recent popular songs and a premiere piece by music faculty member Seth Custer.",
+      "grid": ["christmas2.jpg", "christmas3.jpg", "christmas1.jpg"]
+    }
+  ]
+}

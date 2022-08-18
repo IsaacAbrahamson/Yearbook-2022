@@ -1,0 +1,6 @@
+# CSS RESET
+/src/sass/base/_reset.scss
+
+# EJS files prettier doesn't like
+/src/views/subgroups/group-detail.ejs
+/src/views/subgroups/society-detail.ejs

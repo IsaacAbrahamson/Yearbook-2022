@@ -1,0 +1,61 @@
+section.fruit-section {
+  text-align: center;
+
+  .pattern-cap {
+    position: relative;
+    background-color: var(--section-color);
+    max-width: 100%;
+    padding: 4rem;
+    margin-bottom: 3rem;
+
+    .pattern {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-image: url(http://www.bjuvintage.com/2022/assets/overlay.svg);
+      background-size: cover;
+      background-position-y: 20%;
+    }
+
+    p {
+      font-family: 'PP Migra';
+      position: relative;
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 4rem;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+section.margined {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1500px) {
+  section.margined {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section.fruit-section .pattern-cap {
+    padding: 2rem;
+
+    p {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vintage2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "server": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJUVintage/vintage2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BJUVintage/vintage2022/issues"
+  },
+  "homepage": "https://github.com/BJUVintage/vintage2022#readme",
+  "devDependencies": {
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.1.0",
+    "live-server": "^1.2.1",
+    "sass": "^1.49.0"
+  }
+}

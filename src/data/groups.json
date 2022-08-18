@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "Academic",
+      "subgroups": [
+        "American Advertising Federation",
+        "Collegiate Biology Association",
+        "Criminal Justice Association",
+        "Exercise & Sport Science Association",
+        "Health Sciences Association",
+        "Intercollegiate Programming Team",
+        "Lambda Pi Eta: NCA Honor Society",
+        "METES",
+        "Music Teachers National Association",
+        "National Association for Music Education",
+        "Pre-Medical Association",
+        "Public Policy Organization",
+        "Robotics Team",
+        "Student Legislature",
+        "University Accounting Association",
+        "University Business Association",
+        "University Investing Association",
+        "University Marketing Association",
+        "University Entrepreneurship Network",
+        "University Language Association",
+        "University Nursing Association"
+      ]
+    },
+    {
+      "name": "Bruins",
+      "subgroups": ["Baseball", "Basketball", "Cross Country", "Track & Field", "Golf", "Soccer", "Beach Volleyball", "Volleyball"]
+    },
+    {
+      "name": "Media",
+      "subgroups": ["Collegian", "Vintage", "WBJU TV"]
+    },
+    {
+      "name": "Other",
+      "subgroups": [
+        "Community Service Council",
+        "International Student Organization",
+        "Inter-Society Executive Council",
+        "Missions Advance",
+        "Ministry Class",
+        "Student Leadership Council"
+      ]
+    }
+  ]
+}

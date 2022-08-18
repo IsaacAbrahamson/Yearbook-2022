@@ -1,0 +1,116 @@
+a {
+  text-decoration: none;
+}
+
+a.btn-pattern {
+  position: relative;
+  display: inline-block;
+  background-color: purple;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  color: var(--pear);
+  font-family: 'PP Migra';
+  font-weight: bold;
+  font-size: 2.2rem;
+
+  .pattern {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(http://www.bjuvintage.com/2022/assets/overlay.svg);
+    background-size: cover;
+    background-position-y: 20%;
+  }
+
+  p {
+    position: relative;
+  }
+
+  &.lemon {
+    background-color: var(--lemon);
+    color: var(--dark-blueberry);
+  }
+
+  &.blueberry {
+    background-color: var(--dark-blueberry);
+  }
+
+  &.strawberry {
+    background-color: var(--strawberry);
+    color: var(--dark-blueberry);
+  }
+
+  &.lime {
+    background-color: var(--lime);
+  }
+}
+
+a.btn-round {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: 3px solid var(--dark-blueberry);
+  color: var(--dark-blueberry);
+  font-family: 'Montserrat';
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+a.btn-big {
+  background-color: var(--section-color);
+  color: white;
+  display: inline-block;
+  padding: 2rem 5rem;
+  font-family: 'Montserrat';
+  font-size: 2.2rem;
+  border-radius: 6rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+}
+
+a.btn-event {
+  background-color: var(--lemon);
+  color: var(--dark-blueberry);
+  padding: 1.8rem 4rem;
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  border-radius: 6rem;
+  font-weight: 600;
+  margin-top: var(--spacing-sm);
+}
+
+a.goback {
+  display: block;
+  font-family: 'Merriweather', serif;
+  font-size: 1.6rem;
+  color: #aaa;
+  margin: 2rem 0;
+
+  .arrow {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  a.btn-pattern {
+    width: 90%;
+    max-width: 32rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  a.btn-big {
+    padding: 1.8rem 4rem;
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+  }
+
+  a.btn-event {
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+  }
+}

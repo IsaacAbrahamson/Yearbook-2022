@@ -1,0 +1,66 @@
+body {
+  --primary-color: var(--blueberry);
+  --primary-overlay: var(--blueberry-overlay);
+  --primary-text: var(--pear);
+}
+
+header {
+  .content {
+    padding-top: calc(var(--spacing-lg) + 6.5rem); // Add height for skewed pattern on top
+    padding-bottom: var(--spacing-lg);
+  }
+
+  .pages {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#apple {
+  --section-color: var(--apple);
+  --section-overlay: var(--apple-overlay);
+}
+
+#lemon {
+  --section-color: var(--lemon);
+  --section-overlay: var(--lemon-overlay);
+  --section-text: var(--dark-blueberry);
+}
+
+#blueberry {
+  --section-color: var(--dark-blueberry);
+  --section-overlay: var(--dark-blueberry-overlay);
+  --section-text: var(--pear);
+}
+
+#strawberry {
+  --section-color: var(--strawberry);
+  --section-overlay: var(--strawberry-overlay);
+  --section-text: var(--dark-blueberry);
+}
+
+#lime {
+  --section-color: var(--lime);
+  --section-overlay: var(--lime-overlay);
+  --section-text: var(--pear);
+}
+
+#lemon {
+  a.btn-big {
+    color: var(--dark-blueberry);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  header .pages {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header .content {
+    padding-top: calc(var(--spacing-lg) + 2rem);
+  }
+}

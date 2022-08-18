@@ -1,0 +1,30 @@
+.page-header {
+  .skewed-top {
+    background: var(--primary-color);
+    position: relative;
+    z-index: 50;
+  }
+
+  .skewed-container {
+    margin-top: -7rem;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--clip-angle)), 0% 100%);
+
+    h2 {
+      color: var(--primary-text);
+    }
+
+    .content {
+      background: var(--primary-overlay);
+      padding: calc(var(--clip-angle) + var(--spacing-lg)) 0;
+    }
+  }
+  .skewed-endcap {
+    background-color: var(--primary-color);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-header {
+    margin-top: 5rem;
+  }
+}

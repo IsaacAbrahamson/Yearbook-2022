@@ -1,0 +1,89 @@
+nav {
+  position: fixed;
+  transition: all 400ms ease-in;
+  top: -8.5rem;
+  width: 100%;
+  z-index: 999;
+
+  .bar {
+    z-index: 999;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  #hamburger {
+    display: none;
+
+    .icon span {
+      color: var(--apple);
+      font-size: 4rem;
+      &.mdi-close {
+        display: none;
+      }
+    }
+  }
+
+  &.visible {
+    top: 0;
+  }
+
+  &.open {
+    #hamburger {
+      .icon span {
+        &.mdi-close {
+          display: block;
+        }
+        &.mdi-menu {
+          display: none;
+        }
+      }
+    }
+    #mobile-menu {
+      top: 8.5rem;
+    }
+  }
+
+  #mobile-menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 2rem 10%;
+    align-items: center;
+    top: -50vh;
+    transition: top 700ms ease-out;
+    z-index: 1;
+
+    a.btn-pattern {
+      max-width: none;
+      width: 100%;
+    }
+  }
+}
+
+nav .links a.active {
+  color: var(--apple);
+  border-bottom: 3px solid;
+}
+
+@media only screen and (max-width: 991px) {
+  nav {
+    .links {
+      display: none;
+    }
+    #hamburger {
+      display: block;
+    }
+  }
+}

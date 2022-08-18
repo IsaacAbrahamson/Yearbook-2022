@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body id="search">
+    <nav class="visible"><%- include('../partials/nav'); %></nav>
+
+    <header class="page-header" id="#lime">
+      <div class="skewed-top"></div>
+
+      <div data-jarallax data-speed=".5" class="skewed-container jarallax">
+        <img class="jarallax-img" src="assets/limes.jpg" alt="limes background image" />
+        <div class="content">
+          <h2>SEARCH</h2>
+        </div>
+      </div>
+
+      <div class="skewed-endcap"></div>
+    </header>
+
+    <main class="content-page">
+      <section class="margined">
+        <form id="form">
+          <input id="searchbox" name="search" type="text" placeholder="Search for a person..." autofocus required />
+          <button type="submit">Search</button>
+        </form>
+        <div id="people"></div>
+      </section>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+
+    <script src="https://unpkg.com/jarallax@2.0"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+body#full-theme {
+  --primary-color: var(--blueberry);
+  --primary-overlay: var(--blueberry-overlay);
+  --primary-text: var(--pear);
+
+  p {
+    margin-bottom: 2rem;
+  }
+}

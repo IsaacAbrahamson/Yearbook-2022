@@ -1,0 +1,116 @@
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
+.grid-wrapper {
+  display: grid;
+  width: 90%;
+  max-width: 110rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(12, [col] 1fr);
+  gap: 3rem;
+}
+
+.img-full {
+  display: block;
+  max-width: 100%;
+}
+
+#apple .col {
+  grid-column: col 4 / span 6;
+}
+
+#theme .col {
+  grid-column: col 4 / span 8;
+}
+
+.fruit-section {
+  .grid-wrapper {
+    margin-top: calc(var(--clip-angle) * -1);
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+  }
+
+  .full-image {
+    grid-column: col / span 12;
+  }
+
+  .half-image {
+    grid-column: col / span 6;
+    grid-row: 2;
+  }
+
+  .description {
+    grid-column: col 7 / span 6;
+    grid-row: 2;
+  }
+}
+
+#blueberry {
+  .description {
+    grid-column: col / span 6;
+    grid-row: 2;
+  }
+
+  .half-image {
+    grid-column: col 7 / span 6;
+    grid-row: 2;
+  }
+}
+
+#lime {
+  .grid-wrapper {
+    margin-top: 0;
+  }
+
+  .description {
+    grid-row: 1;
+  }
+
+  .half-image {
+    grid-row: 1;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .fruit-section .grid-wrapper {
+    margin-top: calc(calc(var(--clip-angle) * 1.5) * -1) !important;
+  }
+
+  #theme .col,
+  #apple .col {
+    grid-column: col 2 / span 10;
+  }
+  .half-image {
+    display: none;
+  }
+  .description {
+    grid-column: col / span 12 !important;
+  }
+  #lime {
+    .half-image {
+      display: block;
+      grid-row: 1;
+      grid-column: col / span 12;
+    }
+    .description {
+      grid-row: 2;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fruit-section .grid-wrapper {
+    margin-top: calc(calc(var(--clip-angle) * 2.5) * -1) !important;
+  }
+
+  #theme .col,
+  #apple .col {
+    grid-column: col / span 12;
+  }
+
+  .grid-wrapper {
+    gap: 0;
+  }
+
+  .description {
+    margin-top: 1.5rem;
+  }
+}

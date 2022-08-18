@@ -1,0 +1,58 @@
+.skewed-container {
+  clip-path: polygon(0 var(--clip-angle), 100% 0, 100% calc(100% - var(--clip-angle)), 0% 100%);
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: calc(var(--clip-angle) + var(--spacing-xl)) 0;
+    height: 100%;
+    background: var(--section-overlay);
+  }
+}
+
+.skewed-endcap {
+  background-color: var(--section-color);
+  padding: var(--clip-angle) 0;
+  margin-top: calc(calc(var(--clip-angle) * -1) - 1px);
+  clip-path: polygon(0 var(--clip-angle), 100% 0, 100% calc(100% - var(--clip-angle)), 0% 100%);
+}
+
+.skewed-top {
+  height: calc(15vh + var(--skew-padding));
+  background-color: var(--dark-blueberry);
+  transform: skewY(6deg);
+  margin-top: calc(var(--skew-padding) * -1);
+}
+
+.skewed-top-pattern {
+  height: 5rem;
+  transform: skewY(6deg);
+  background-image: url(http://www.bjuvintage.com/2022/assets/pattern.svg);
+  background-size: 8vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .skewed-top-pattern {
+    background-size: 20vw;
+  }
+
+  .skewed-endcap {
+    padding: calc(var(--clip-angle) * 1.5) 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skewed-top {
+    height: calc(10vh + var(--skew-padding));
+  }
+
+  .skewed-top-pattern {
+    height: 3rem;
+    background-size: 25vw;
+  }
+
+  .skewed-endcap {
+    padding: calc(var(--clip-angle) * 2) 0;
+  }
+}
