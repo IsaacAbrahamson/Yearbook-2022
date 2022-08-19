@@ -1,48 +1,37 @@
-# Vintage 2022
+# 2022 Yearbook
 
-## 1. Getting Started
+http://www.bjuvintage.com/2022/
 
-### A. Installing Dependencies
+I led a team of five college students to design and develop a companion website based on our school's yearbook.
 
-Install Node.js and NPM https://nodejs.org/en/
+## Features
 
-Clone repository to local computer
+- Custom design based on yearbook created using Figma
+- Parallax background sections
+- EJS and Sass preprocessors
+- CSS Grid
+- Built mobile navigation menu
+- Pre-rendered pages using custom vanilla JavaScript render pipeline
+- AWS Lambda API for search functionality
+
+## Installing
+
+You will need Node.js installed to build the project. After cloning the project, install dependencies:
 
 ```
-git clone https://github.com/BJUVintage/vintage2022.git
-```
-
-Enter repository and install dependencies
-
-```
-cd ./vintage2022
 npm install
 ```
 
-### B. Configuring Environment
-
-Download [VSCode](https://code.visualstudio.com/).
-
-Install [EJS extension](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support).
-
-Install [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
-
-## 2. Building Website
-
-Build website everytime you make changes and want to test. This will compile the EJS and Sass files to HTML and CSS.
+Run the render pipeline using:
 
 ```
 npm run build
 ```
 
-Launch the local web server. I recommend doing this in a separate terminal so it runs in background.
+Run a local server:
 
 ```
 npm run server
 ```
 
-Now you just need to rebuild and refresh your browser everytime you make changes.
-
-## 3. Contributing
-
-Please make a separate branch for all of your individual work. Make a pull request when you are satisfied to merge your changes into main.
+**Note:** Some functionality will not work on a local server as it does not have access to AWS backend.
